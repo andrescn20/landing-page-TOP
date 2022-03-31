@@ -5,10 +5,25 @@
     justify-content: space-between;
 }
 
+.logo{
+    font-size: 24px;
+    color: #F9FaF8
+}
+
 .heromain{
     font-size: 48px;
     font-weight: extra-bold;
-    color
+    color: #F9FaF8;
+}
+.herosecond{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.productheader{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
 }
 .phrase {
     background-color: #E5E7EB;
