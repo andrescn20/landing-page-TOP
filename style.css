@@ -1,0 +1,10 @@
+
+.header, .front, .footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phrase {
+    background-color: #E5E7EB;
+}
