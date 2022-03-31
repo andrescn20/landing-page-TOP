@@ -15,10 +15,17 @@
     font-weight: extra-bold;
     color: #F9FaF8;
 }
-.herosecond{
+
+.herosecond, .headerlinks{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+a{
+    text-decoration: none;
+    color:#E5E7EB
+}
+
 
 .productheader{
     font-size: 36px;
@@ -27,4 +34,10 @@
 }
 .phrase {
     background-color: #E5E7EB;
+}
+
+#phrase{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
 }
