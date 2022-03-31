@@ -1,6 +1,13 @@
 
 .header, .front, .footer{
     background-color: #1F2937;
+}
+
+div{
+    border: 1.5px solid red;
+}
+
+.header{
     display: flex;
     justify-content: space-between;
 }
@@ -8,6 +15,20 @@
 .logo{
     font-size: 24px;
     color: #F9FaF8
+}
+
+a{
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+.front{
+    display: flex;  
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
 }
 
 .heromain{
@@ -20,12 +41,6 @@
     font-size: 18px;
     color: #E5E7EB;
 }
-
-a{
-    text-decoration: none;
-    color:#E5E7EB
-}
-
 
 .productheader{
     font-size: 36px;
