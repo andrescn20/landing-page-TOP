@@ -12,10 +12,11 @@ body{
 .header, .front, .footer{
     background-color: #1F2937;
 }
+
 /*Reference container borders*/
-div, nav{
+/*div, nav{
     border: 1.5px solid red;
-}
+}*/
 
 .button{
     background-color: #3882F6;
@@ -25,15 +26,15 @@ div, nav{
 /*Header*/
 .header{
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
     height: 64px;
     align-items: center;
+    justify-content: center;
 }
 .headercont{
     display: flex;
-    width: 1200px;
+    width: 1000px;
     justify-content: space-between;
+
 }
 
 .logo{
@@ -59,28 +60,43 @@ a{
 /*Section 1*/
 .front{
     display: flex;
-    /*justify-content: center;*/
-    border: 1.5px solid red;
+    justify-content: center;
+    /*border: 1.5px solid red;*/
 }
 
 .left{
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 500px;
+    justify-content: center;
+}
+
+p{
+    margin: 0px;
+}
+span{
+    font-weight: bolder;
 }
 
 .right {
-    border: 2px solid green;
+   /*border: 2px solid green;*/
     display: flex;
-    width: 600px;
-    padding: 50px;
+    width: 440px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#logosil{
+    flex: auto;
+    /*border: 2px solid green;*/
+    max-width: 100%;
+    border-radius: 25px;   
 }
 
 .heromain{
     display: flex;
-    font-size: 48px;
-    font-weight: extra-bold;
+    font-size: 40px;
     color: #F9FaF8;
 }
 
