@@ -1,17 +1,33 @@
+html{
+    height: 100%;
+}
+body{
+    border: 2px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
 /*Dark backgounds*/
 .header, .front, .footer{
     background-color: #1F2937;
 }
 /*Reference container borders*/
-div{
+/*div, nav{
     border: 1.5px solid red;
-}
+}*/
 
+.button{
+    background-color: #3882F6;
+
+}
 
 /*Header*/
 .header{
     display: flex;
     justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .logo{
@@ -27,15 +43,31 @@ a{
 
 /*Section 1*/
 .front{
-    display: flex;  
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid red;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 1;
 }
 
 .left{
     display: flex;
     flex-direction: column;
+    flex: 0 0 auto;
+    justify-items: flex-start;
+}
+
+.right {
+    border: 2px solid green;
+    display: flex;
+    padding: 50px;
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
 }
 
 .heromain{
+    display: flex;
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FaF8;
@@ -51,18 +83,36 @@ a{
 
 .productheader{
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color:#1F2937;
 }
 
 .information{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex: 1;
 }
 .products{
+    border: 1.5px solid red;
     display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product{
+    border: 1.5px solid red;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
+.product img{
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+}
 
 /*Section 3*/
 .phrase {
@@ -87,4 +137,5 @@ a{
 /*Footer*/
 .footer {
     display: flex;
+    
 }
