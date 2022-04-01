@@ -20,6 +20,7 @@ body{
 
 .button{
     background-color: #3882F6;
+    border-color:#1F2937;
     color:#F9FaF8;
     width: 120px;
     height: 30px;
@@ -214,9 +215,11 @@ span{
 
 }
 
-
-
 /*Footer*/
 .footer {
     display: flex;
+    height: 64px;
+    align-items: flex-end;
+    justify-content: center;
+    color: #F9FaF8;
 }
