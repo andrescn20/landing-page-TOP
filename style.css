@@ -13,9 +13,9 @@ body{
     background-color: #1F2937;
 }
 /*Reference container borders*/
-/*div, nav{
+div, nav{
     border: 1.5px solid red;
-}*/
+}
 
 .button{
     background-color: #3882F6;
@@ -25,45 +25,56 @@ body{
 /*Header*/
 .header{
     display: flex;
-    justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+    height: 64px;
+    align-items: center;
+}
+.headercont{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
 }
 
 .logo{
-    font-size: 24px;
-    color: #F9FaF8
+    font-size: 32px;
+    color: #F9FaF8;
+    font-weight: bolder;
+
+}
+
+.headerlinks{
+    display: flex;
+    gap: 24px;
 }
 
 a{
     text-decoration: none;
     color:#E5E7EB;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 
 /*Section 1*/
 .front{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     border: 1.5px solid red;
-    padding-left: 50px;
-    padding-right: 50px;
-    flex: 1;
 }
 
 .left{
+    border: 2px solid green;
     display: flex;
     flex-direction: column;
-    flex: 0 0 auto;
-    justify-items: flex-start;
+    width: 600px;
 }
 
 .right {
     border: 2px solid green;
     display: flex;
+    width: 600px;
     padding: 50px;
-    flex-wrap: nowrap;
-    flex: 0 0 auto;
 }
 
 .heromain{
@@ -137,5 +148,4 @@ a{
 /*Footer*/
 .footer {
     display: flex;
-    
 }
