@@ -110,11 +110,12 @@ span{
 /*Section 2*/
 
 .information{
-    border: 2px solid lightgreen;
+    /*border: 2px solid lightgreen;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1;
+    justify-content: space-evenly;
 }
 
 .productheader{
@@ -124,7 +125,7 @@ span{
 }
 
 .products{
-    border: 1.5px solid red;
+    /*border: 1.5px solid red;*/
     display: flex;
     column-gap: 20px;
     justify-content: center;
@@ -132,30 +133,50 @@ span{
     
 }
 .product{
-    border: 1.5px solid red;
-    width: 200px;
+    /*border: 1.5px solid red;*/
+    width: 180px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .product img{
     border: 5px solid #3882F6;
     border-radius: 10px;
-    height: 150px;
+    max-width: 95%;
 }
 
 /*Section 3*/
 .phrase {
+    border: 1.5px solid red;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    border: 1.5px solid khaki;
+    display: flex;
+    flex-direction: column;
 }
 
 #phrase{
+    border: 1.5px solid rgb(34, 45, 150);
     font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-weight: light;
+    font-weight: 100;
+    width: 1000px;
+}
+
+#author{
+    border: 1.5px solid olive;
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 
