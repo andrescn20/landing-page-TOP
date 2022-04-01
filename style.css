@@ -20,6 +20,12 @@ body{
 
 .button{
     background-color: #3882F6;
+    color:#F9FaF8;
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
 
 }
 
@@ -148,7 +154,7 @@ span{
 
 /*Section 3*/
 .phrase {
-    border: 1.5px solid red;
+    /*border: 1.5px solid red;*/
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -158,22 +164,22 @@ span{
 }
 
 .quote{
-    border: 1.5px solid khaki;
+    /*border: 1.5px solid khaki;*/
     display: flex;
     flex-direction: column;
 }
 
 #phrase{
-    border: 1.5px solid rgb(34, 45, 150);
+    /*border: 1.5px solid rgb(34, 45, 150);*/
     font-size: 36px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: 100;
-    width: 1000px;
+    width: 800px;
 }
 
 #author{
-    border: 1.5px solid olive;
+    /*border: 1.5px solid olive;*/
     align-self: flex-end;
     font-weight: bolder;
     font-size: 30px;
@@ -184,7 +190,30 @@ span{
 .action{
     display: flex;
     flex: 1;
+    align-items: center;
+    justify-content: center;
 }
+
+.call{
+    display: flex;
+    background-color: #3882F6;
+    margin: auto;
+    border-radius: 5px;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.call button {
+    border-color: #F9FaF8;
+}
+#action{
+    color: #F9FaF8;
+    margin: 20px;
+
+}
+
 
 
 /*Footer*/
