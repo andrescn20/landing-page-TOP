@@ -72,7 +72,6 @@ a{
 }
 
 .left{
-    /*border: 2px solid green;*/
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -88,7 +87,6 @@ span{
 }
 
 .right {
-   /*border: 2px solid green;*/
     display: flex;
     width: 440px;
     align-items: center;
@@ -162,36 +160,35 @@ span{
 
 /*Section 3*/
 .phrase {
-    /*border: 1.5px solid red;*/
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
-    height: 340px;
-    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .quote{
-    /*border: 1.5px solid khaki;*/
     display: flex;
     flex-direction: column;
+    margin-block: 50px;
+    flex-wrap: wrap;
+    width: 800px;
 }
 
 #phrase{
-    /*border: 1.5px solid rgb(34, 45, 150);*/
     font-size: 36px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: 100;
-    width: 800px;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
 }
 
 #author{
-    /*border: 1.5px solid olive;*/
     align-self: flex-end;
     font-weight: bolder;
     font-size: 30px;
+    flex-wrap: wrap;
 }
 
 
