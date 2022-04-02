@@ -172,7 +172,7 @@ span{
     flex-direction: column;
     margin-block: 50px;
     flex-wrap: wrap;
-    width: 800px;
+    width: 820px;
 }
 
 #phrase{
@@ -182,6 +182,7 @@ span{
     font-weight: 100;
     flex: 0 1 auto;
     flex-wrap: wrap;
+    margin-left: 20px;
 }
 
 #author{
@@ -196,7 +197,6 @@ span{
 .action{
     display: flex;
     height: 340px;
-    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
     background-color: #F9FaF8;
@@ -215,6 +215,7 @@ span{
 
 .call button {
     border-color: #F9FaF8;
+    margin-right: 20px;
 }
 #action{
     color: #F9FaF8;
